@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday Asma!</title>
+  <style>
+    body {
+      background-color: #fce4ec; /* Very Light Baby Pink */
+      font-family: 'Arial', sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    h1 {
+      color: #ff69b4;
+      font-size: 3em;
+      margin-top: 20%;
+    }
+    p {
+      color: #333;
+      font-size: 1.2em;
+    }
+    .button {
+      background-color: #ff69b4;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1.2em;
+      cursor: pointer;
+      margin-top: 20px;
+      border-radius: 5px;
+    }
+    .button:hover {
+      background-color: #ff1493;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎉 Happy Birthday Asma! 🎂</h1>
+  <p>Happy Birthday to the most greatest person on earth , May your day be as beautiful and kind as your heart.</p>
+  <button class="button" onclick="revealMessage()"> 25 🎉!</button>
+  <p id="surpriseMessage" style="display:none; color: #ff1493; font-size: 1.5em;">🎁 You came as an unexpected person in my life, now you are the most important person in my life, I LOVE YOU 🎁</p>
+  <script>
+    function revealMessage() {
+      document.getElementById('surpriseMessage').style.display = 'block';
+    }
+  </script>
+</body>
+</html>
